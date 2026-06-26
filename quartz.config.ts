@@ -14,8 +14,8 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    // GitHub Pages project site URL (https://maxwernz.github.io/study-wiki/).
-    baseUrl: "maxwernz.github.io/study-wiki",
+    // GitHub Pages project site URL (https://maxwernz.github.io/cogsci-wiki/).
+    baseUrl: "maxwernz.github.io/cogsci-wiki",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {

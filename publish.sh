@@ -7,7 +7,7 @@
 #
 # It re-syncs the selected vault folders into the site, commits the result, and
 # pushes. The push triggers the GitHub Actions deploy (~1.5 min), after which the
-# changes are live at https://maxwernz.github.io/study-wiki/.
+# changes are live at https://maxwernz.github.io/cogsci-wiki/.
 #
 set -euo pipefail
 cd "$(dirname "$0")"
@@ -30,5 +30,5 @@ git push -q
 
 echo ""
 echo "Done. Deploy is running — live in ~1-2 min at:"
-echo "  https://maxwernz.github.io/study-wiki/"
-echo "Watch it with:  gh run watch --repo maxwernz/study-wiki"
+echo "  https://maxwernz.github.io/cogsci-wiki/"
+echo "Watch it with:  gh run watch --repo maxwernz/cogsci-wiki"
