@@ -106,7 +106,7 @@ done
 # --- Site homepage: list of courses -------------------------------------------
 {
   echo "---"
-  echo "title: Study Wiki"
+  echo "title: CogSci Wiki"
   echo "---"
   echo ""
   echo "A study wiki (M.Sc. Cognitive Science, University of Tübingen)."

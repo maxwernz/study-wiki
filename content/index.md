@@ -1,5 +1,5 @@
 ---
-title: Study Wiki
+title: CogSci Wiki
 ---
 
 A study wiki (M.Sc. Cognitive Science, University of Tübingen).
