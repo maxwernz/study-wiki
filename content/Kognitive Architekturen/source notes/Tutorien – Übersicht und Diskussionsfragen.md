@@ -5,14 +5,14 @@ scope: local
 class: Kognitive Architekturen
 project:
 source_type: tutorial_materials
-raw_path: "raw/Tutorien/CogArchTut_1..8.pdf"
+raw_path: "raw/Tutorien/CogArchTut_1..9.pdf"
 created: 2026-06-09
-updated: 2026-06-17
+updated: 2026-07-01
 ---
 
 # Tutorien – Übersicht und Diskussionsfragen
 
-> Konsolidierte Notiz für die acht Tutoriums-PDFs (`raw/Tutorien/CogArchTut_1..8.pdf`).
+> Konsolidierte Notiz für die neun Tutoriums-PDFs (`raw/Tutorien/CogArchTut_1..9.pdf`).
 > Die Tutorien sind bildbasierte Foliensätze des Tutors (Mudar Adas & Laurens Löst)
 > und mischen: **Paper-Diskussionsfragen**, **Recaps**, **praktische Aufgaben** und
 > Organisatorisches/Feedback. Sie wurden zu PNG gerendert und gelesen.
@@ -115,6 +115,27 @@ Kovarianzmatrizen) und den **Klausurtermin 29.07.2026 (18–19 Uhr)**.
   bestimmen; $p(E,W,A)$ für alle 8 Kombinationen; $p(A\mid E)$, generelles $p(A)$,
   diagnostisch $p(A\mid H)$. Gehört zu [[VL09 Visuelle Wahrnehmung Top-Down]].
 
+### Tutorium 9 — Informationsfusion (zu VL10)
+
+Reines **Aufgaben-Tutorium** zur multisensorischen [[Multisensorische Informationsfusion|Informationsfusion]]
+(keine Paper-Diskussionsfragen). Drei Aufgabentypen – hier nur die **Themen**, keine
+Lösungen:
+
+- **Aufgabe 1 – Fusion ohne interne Schätzung**: zwei Quellen (visuell/auditiv). (a) beide
+  im selben Referenzraum ($f_i(x)=x$); (b) mit **Mappingfunktionen** in unterschiedlichen
+  Einheiten ($f_1(x)=x/5$, $f_2(x)=2x$) – erst Quellen und Varianzen mappen, dann
+  fusionieren.
+- **Aufgabe 2 – Fusion mit drei Modalitäten und interner Schätzung**: a-priori-Schätzung
+  wird als weitere Quelle einbezogen; berechnet werden fusionierte Schätzung $\hat{L}$
+  *und* Varianz $\sigma_L^2$.
+- **Aufgabe 3 – Fusion über zwei Zeitschritte**: iterative Anwendung mit **Vorwärtsmodell**
+  (Projektion $\hat{L}'(t)=\hat{L}(t-1)+f(t)$, $\sigma_L^{2\prime}(t)=\sigma_L^2(t-1)+g(t)$;
+  hier ohne zusätzliche Varianzerhöhung, „keine Bewegung erwartet").
+
+Gehört zu [[VL10 Multisensorische Interaktion und Räume]]; die Formeln stehen in
+[[Multisensorische Informationsfusion]] und der [[Formelsammlung (Tutorium)]]. Direkter
+Klausur-Rechendrill.
+
 ## Local relevance
 
 Die Tutorien sind die „praktische" Spiegelung der Vorlesung und der direkte
@@ -133,5 +154,5 @@ Klausurteil. Die Diskussionsfragen sind ideale Wiederholungsfragen.
 
 ## Open questions
 
-Tutorien 1–8 sind erfasst. Spätere Tutorien (zu Multimodalität/Informationsfusion,
+Tutorien 1–9 sind erfasst (Tut 9 = Informationsfusion zu VL10). Spätere Tutorien (zu
 Abstraktion, Aufmerksamkeit, Sprache) liegen noch nicht vor.
